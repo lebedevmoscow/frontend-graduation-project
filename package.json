@@ -4,7 +4,14 @@
   "description": "It's mine final graduation project as the Front-End Developer. It's like a foundation skills in this dev departament. After it I'll be grow as a professional developer but the most foundation skills will be already formed.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack serve" 
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
   "repository": {
     "type": "git",
