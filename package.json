@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve" 
+    "start": "webpack serve --port 3000"
   },
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lebedevmoscow/frontend-graduation-project.git"
@@ -30,6 +29,8 @@
     "babel-loader": "^8.2.1",
     "css-loader": "^5.0.1",
     "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0",
